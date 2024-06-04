@@ -51,7 +51,7 @@ public class SocketClient {
 
         console.println("Подключение к серверу успешно установлено.");
         Scanner scanner = new Scanner(System.in);
-        while (scanner.hasNextLine()) {
+        while (true) {
             try {
                 while (!isLoggedIn){
                     String tryTOlog = scanner.nextLine().trim();

@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        SocketClient client = new SocketClient("localhost",8080);
+        SocketClient client = new SocketClient("localhost",64379);
         client.start();
     }
 }

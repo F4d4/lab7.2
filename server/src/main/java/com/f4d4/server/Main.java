@@ -43,6 +43,6 @@ public class Main {
             register("login" , new Login(databaseRuler));
         }};
 
-        new SocketServer("localhost" , 8080 , commandRuler).start();
+        new SocketServer("localhost" , 64379 , commandRuler).start();
     }
 }
